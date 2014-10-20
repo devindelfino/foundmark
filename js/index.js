@@ -11,7 +11,7 @@ $(document).ready(function() {
 // genomics hover
 $(function() {
 	$('#genomic').mouseover(function() {
-		console.log("hovering");
+		console.log("genomics");
 		$('#wordcloud').hide('fast');
 		$('#lexos').hide('fast');
 		$('#teaching').hide('fast');
@@ -25,7 +25,7 @@ $(function() {
 // anglo saxon hover
 $(function() {
 	$('#lexomics').mouseover(function() {
-		console.log("hovering");
+		console.log("lexos");
 		$('#wordcloud').hide('fast');
 		$('#genomics').hide('fast');
 		$('#teaching').hide('fast');
@@ -39,7 +39,7 @@ $(function() {
 // teaching hover
 $(function() {
 	$('#teach').mouseover(function() {
-		console.log("hovering");
+		console.log("teaching");
 		$('#wordcloud').hide('fast');
 		$('#genomics').hide('fast');
 		$('#lexos').hide('fast');
@@ -53,7 +53,7 @@ $(function() {
 // profile hover
 $(function() {
 	$('#prof').mouseover(function() {
-		console.log("hovering");
+		console.log("profile");
 		$('#wordcloud').hide('fast');
 		$('#genomics').hide('fast');
 		$('#teaching').hide('fast');
@@ -67,7 +67,7 @@ $(function() {
 // personal hover
 $(function() {
 	$('#person').mouseover(function() {
-		console.log("hovering");
+		console.log("personal");
 		$('#wordcloud').hide('fast');
 		$('#genomics').hide('fast');
 		$('#teaching').hide('fast');
@@ -81,7 +81,7 @@ $(function() {
 // travels hover
 $(function() {
 	$('#map').mouseover(function() {
-		console.log("hovering");
+		console.log("map");
 		$('#wordcloud').hide('fast');
 		$('#genomics').hide('fast');
 		$('#teaching').hide('fast');
@@ -95,7 +95,7 @@ $(function() {
 // mouse leaves menu
 $(function() {
 	$('#menu').mouseleave(function() {
-		console.log("body");
+		console.log("left menu");
 		$('#genomics').hide('fast');
 		$('#lexos').hide('fast');
 		$('#teaching').hide('fast');
@@ -121,14 +121,14 @@ $(function() {
 
 	// convert number of days he's been gone to days from milliseconds
 	// check in console to make sure right
-    daysBeenGone = ((((daysBeenGone/1000)/60)/60)/24);
-    console.log(daysBeenGone);
+    daysBeenGone = Math.floor(((((daysBeenGone/1000)/60)/60)/24));
+    console.log("He's been gone for " + daysBeenGone + " days");
 
     daysLeft = Math.floor(totalDays - daysBeenGone);
 
     // if he's already back fill up entire bar and say he's been gone
     if ((daysLeft) <= 0) {
-		document.getElementById('progressbar').style.width=100 + "%";
+		document.getElementById('progressbar').style.width = 100 + "%";
         document.getElementById('progressbar').innerHTML="Mark's returned";
     }
     
@@ -139,7 +139,7 @@ $(function() {
            	percent = Math.floor((daysBeenGone/totalDays)*100);
         }
 
-        console.log(percent);
+        console.log(percent + "% of the way through sabbatical");
         document.getElementById('progressbar').style.width = percent + "%";
         document.getElementById('progressbar').innerHTML = percent + "% of sabbatical completed.  " + daysLeft + " days left";
     }
