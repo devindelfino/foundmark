@@ -18,3 +18,7 @@ footer #hr {
 	height: 308px;
 	overflow: hidden;
 }
+
+#progressbar{
+	white-space: nowrap;
+}
