@@ -1,0 +1,67 @@
+body {
+	background: linear-gradient(180deg, black, white);
+	background-repeat: no-repeat;
+}
+
+footer {
+	color: #000;
+}
+
+footer #hr {
+	border-color: #ff0;
+	border: none;
+	border-top: thick double;
+	text-align: center;
+}
+
+.centeredtext {
+	text-align: center;
+}
+
+.reveal-modal {
+	border: none;
+}
+
+.poem {
+	border: double;
+	width: 350px;
+}
+
+.featuredimage {
+	text-align: center;
+	width:	350px;
+	height:	350px;
+	line-height: 350px;
+	vertical-align: middle;
+}
+
+#grampsimage {
+	height: 40%;
+	width: 40%;
+}
+
+.image-link {
+	height: 60%;
+	width: 60%;
+}
+
+.previewtext {
+	font-size: 60%;
+}
+
+.icon {
+	height: 30px;
+	width: 30px;
+}
+
+.flagimage {
+
+}
+
+.tabs {
+	text-align: center;
+}
+
+#travels {
+	height: 200%;
+}
