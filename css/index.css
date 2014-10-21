@@ -1,23 +1,28 @@
+/* Body */
+
 body {
   background: linear-gradient(180deg, black, white);
   background-repeat: no-repeat;
 }
+
+/* Footer */
 
 footer {
   color: #000;
 }
 
 footer #hr {
-  border-color: #ff0;
   border: none;
+  border-color: #ff0;
   border-top: thick double;
-  text-align: center;
 }
+
+/* IDs */
 
 #travels {
   border: 0;
-  width: 100%;
   height: 308px;
+  width: 100%;
 }
 
 #previews {
@@ -31,6 +36,7 @@ footer #hr {
 
 #valid-css {
   border: 0;
-  width: 88px;
   height: 31px;
+  margin-left: 45%;
+  width: 88px;
 }
