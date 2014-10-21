@@ -3,6 +3,7 @@
 body {
   background: linear-gradient(180deg, black, white);
   background-repeat: no-repeat;
+  font-family: 'Montserrat', Helvetica, Arial;
 }
 
 /* Footer */
@@ -18,6 +19,15 @@ footer #hr {
 }
 
 /* IDs */
+
+#genomic,
+#lexomics,
+#teach,
+#prof,
+#person,
+#map {
+  font-family: 'Montserrat', Helvetica, Arial;
+}
 
 #travels {
   border: 0;

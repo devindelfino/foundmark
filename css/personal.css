@@ -1,6 +1,7 @@
 body {
 	background: linear-gradient(180deg, black, white);
 	background-repeat: no-repeat;
+	font-family: 'Montserrat', Helvetica, Arial;
 }
 
 footer {
@@ -15,6 +16,13 @@ footer #hr {
 }
 
 .centeredtext {
+  	font-family: 'Montserrat', Helvetica, Arial;
+	text-align: center;
+}
+
+.centeredtext1 {
+	color: #fff;
+  	font-family: 'Montserrat', Helvetica, Arial;
 	text-align: center;
 }
 
