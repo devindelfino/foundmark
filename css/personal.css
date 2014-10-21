@@ -57,7 +57,20 @@ footer #hr {
 	font-size: 60%;
 }
 
-.doubleicon {
-	height:300%;
-	width: 300%;
+.icon {
+	height: 30px;
+	width: 30px;
+}
+
+.flagimage {
+
+}
+
+.tabs {
+	text-align: center;
+}
+
+.float-right {
+	display: inline-block;
+	float: right;
 }
