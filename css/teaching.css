@@ -4,6 +4,11 @@ body {
 	font-family: 'Montserrat', Helvetica, Arial;
 }
 
+p {
+	font-size: 12px;
+	margin-left: 10px;
+}
+
 footer {
 	color: #000;
 }
@@ -67,6 +72,7 @@ footer #hr {
 }
 
 .tabs {
+	margin-left: 100px;
 	text-align: center;
 }
 
@@ -79,12 +85,15 @@ footer #hr {
 	color: #fff;
 }
 
-#f05 {
+#fall {
 	float: left;
 	margin-left: 100px;
+	width: 35%;
 }
 
-#s06 {
+#spring {
 	float: right;
 	margin-right: 100px;
+	text-align: left;
+	width: 35%;
 }

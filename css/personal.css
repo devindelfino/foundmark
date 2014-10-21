@@ -74,3 +74,11 @@ footer #hr {
 	display: inline-block;
 	float: right;
 }
+
+#header-text {
+	color: #fff;
+}
+
+#travels {
+	height: 450px;
+}
