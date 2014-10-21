@@ -1,3 +1,5 @@
+/* HTML Elements */
+
 body {
 	background: linear-gradient(180deg, black, white);
 	background-repeat: no-repeat;
@@ -9,11 +11,13 @@ footer {
 }
 
 footer #hr {
-	border-color: #ff0;
 	border: none;
+	border-color: #ff0;
 	border-top: thick double;
 	text-align: center;
 }
+
+/* Classes */
 
 .centeredtext {
   	font-family: 'Montserrat', Helvetica, Arial;
@@ -26,35 +30,17 @@ footer #hr {
 	text-align: center;
 }
 
-.reveal-modal {
-	border: none;
-}
-
-.poem {
-	border: double;
-	width: 350px;
-}
-
 .featuredimage {
-	text-align: center;
-	width:	350px;
 	height:	350px;
 	line-height: 350px;
+	text-align: center;
 	vertical-align: middle;
+	width:	350px;
 }
 
-#grampsimage {
-	height: 40%;
-	width: 40%;
-}
-
-.image-link {
-	height: 60%;
-	width: 60%;
-}
-
-.previewtext {
-	font-size: 60%;
+.float-right {
+	display: inline-block;
+	float: right;
 }
 
 .icon {
@@ -62,17 +48,33 @@ footer #hr {
 	width: 30px;
 }
 
-.flagimage {
+.image-link {
+	height: 60%;
+	width: 60%;
+}
 
+.poem {
+	border: double;
+	width: 350px;
+}
+
+.previewtext {
+	font-size: 60%;
+}
+
+.reveal-modal {
+	border: none;
 }
 
 .tabs {
 	text-align: center;
 }
 
-.float-right {
-	display: inline-block;
-	float: right;
+/* IDs */
+
+#grampsimage {
+	height: 40%;
+	width: 40%;
 }
 
 #header-text2 {

@@ -1,12 +1,10 @@
-/* Body */
+/* HTML Elements */
 
 body {
   background: linear-gradient(180deg, black, white);
   background-repeat: no-repeat;
   font-family: 'Montserrat', Helvetica, Arial;
 }
-
-/* Footer */
 
 footer {
   color: #000;
@@ -22,17 +20,11 @@ footer #hr {
 
 #genomic,
 #lexomics,
-#teach,
-#prof,
+#map,
 #person,
-#map {
+#prof,
+#teach {
   font-family: 'Montserrat', Helvetica, Arial;
-}
-
-#travels {
-  border: 0;
-  height: 308px;
-  width: 100%;
 }
 
 #previews {
@@ -42,6 +34,12 @@ footer #hr {
 
 #progress-bar{
   white-space: nowrap;
+}
+
+#travels {
+  border: 0;
+  height: 308px;
+  width: 100%;
 }
 
 #valid-css {
