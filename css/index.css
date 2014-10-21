@@ -1,0 +1,42 @@
+/* Body */
+
+body {
+  background: linear-gradient(180deg, black, white);
+  background-repeat: no-repeat;
+}
+
+/* Footer */
+
+footer {
+  color: #000;
+}
+
+footer #hr {
+  border: none;
+  border-color: #ff0;
+  border-top: thick double;
+}
+
+/* IDs */
+
+#travels {
+  border: 0;
+  height: 308px;
+  width: 100%;
+}
+
+#previews {
+  height: 308px;
+  overflow: hidden;
+}
+
+#progress-bar{
+  white-space: nowrap;
+}
+
+#valid-css {
+  border: 0;
+  height: 31px;
+  margin-left: 45%;
+  width: 88px;
+}

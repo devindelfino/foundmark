@@ -1,0 +1,8 @@
+body {
+  background: linear-gradient(180deg, black, white);
+  background-repeat: no-repeat;
+}
+
+#searching {
+	margin-left: 30%;
+}
