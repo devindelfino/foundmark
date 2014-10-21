@@ -3,8 +3,8 @@
   xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 
   <url> 
-    <loc>http://foundmark.me</loc> 
-    <image:image>
+    <loc>http://foundmark.me/index.html</loc> 
+<!--     <image:image>
       <image:loc>http://foundmark.me/img/favicon.png</image:loc>
       <image:loc>http://foundmark.me/img/markroot.png</image:loc>
       <image:loc>http://foundmark.me/img/wordcloud.jpg</image:loc>
@@ -16,12 +16,25 @@
       <image:loc>http://foundmark.me/img/progLang.jpg</image:loc>
       <image:loc>http://foundmark.me/img/mark.jpg</image:loc>
       <image:loc>http://jigsaw.w3.org/css-validator/images/vcss</image:loc>
-    </image:image>
+    </image:image> -->
   </url>
 
   <url>
     <loc>http://foundmark.me/personal.html</loc>
+<!--     <image:image>
+      <image:loc>http://foundmark.me/img/favicon.png</image:loc>
+      <image:loc>http://foundmark.me/img/markroot.png</image:loc>
+      <image:loc>http://foundmark.me/img/sons.jpg</image:loc>
+      <image:loc>http://foundmark.me/img/stonewalls.jpg</image:loc>
+      <image:loc>http://foundmark.me/img/reading.jpg</image:loc>
+      <image:loc>http://foundmark.me/img/maine.jpg</image:loc>
+      <image:loc>http://foundmark.me/img/travel.jpg</image:loc>
+      <image:loc>http://foundmark.me/img/fishing.jpg</image:loc>
+    </image:image> -->
+  </url>
 
+  <url>
+    <loc>http://foundmark.me/404.html</loc>
   </url>
 
 </urlset>
