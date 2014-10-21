@@ -1,0 +1,90 @@
+body {
+	background: linear-gradient(180deg, black, white);
+	background-repeat: no-repeat;
+	font-family: 'Montserrat', Helvetica, Arial;
+}
+
+footer {
+	color: #000;
+}
+
+footer #hr {
+	border-color: #ff0;
+	border: none;
+	border-top: thick double;
+	text-align: center;
+}
+
+.centeredtext {
+  	font-family: 'Montserrat', Helvetica, Arial;
+	text-align: center;
+}
+
+.centeredtext1 {
+	color: #fff;
+  	font-family: 'Montserrat', Helvetica, Arial;
+	text-align: center;
+}
+
+.reveal-modal {
+	border: none;
+}
+
+.poem {
+	border: double;
+	width: 350px;
+}
+
+.featuredimage {
+	text-align: center;
+	width:	350px;
+	height:	350px;
+	line-height: 350px;
+	vertical-align: middle;
+}
+
+#grampsimage {
+	height: 40%;
+	width: 40%;
+}
+
+.image-link {
+	height: 60%;
+	width: 60%;
+}
+
+.previewtext {
+	font-size: 60%;
+}
+
+.icon {
+	height: 30px;
+	width: 30px;
+}
+
+.flagimage {
+
+}
+
+.tabs {
+	text-align: center;
+}
+
+.float-right {
+	display: inline-block;
+	float: right;
+}
+
+#header-text {
+	color: #fff;
+}
+
+#f05 {
+	float: left;
+	margin-left: 100px;
+}
+
+#s06 {
+	float: right;
+	margin-right: 100px;
+}
