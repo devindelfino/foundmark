@@ -67,10 +67,6 @@ footer #hr {
 	width: 30px;
 }
 
-.flagimage {
-
-}
-
 .tabs {
 	margin-left: 100px;
 	text-align: center;
@@ -96,4 +92,8 @@ footer #hr {
 	margin-right: 100px;
 	text-align: left;
 	width: 35%;
+}
+
+.academicyear {
+	border-bottom: solid;
 }
